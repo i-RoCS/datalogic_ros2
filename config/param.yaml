@@ -1,0 +1,34 @@
+sentinel_node:
+  ros__parameters:
+    lrfIp: "192.168.1.99"
+    selfIp: "192.168.1.10"
+    monitPort: 2000
+    masterEnabled: true
+    masterIntensityEnable: false
+    masterMinAng: 0.0
+    masterMaxAng: 275.0
+    masterAngInc: 0.1
+    masterTfFrame: "laser_master_frame"
+    masterTopic: "scan"
+    slave1Enabled:  false
+    slave1IntensityEnable:  false
+    slave1MinAng: 0.0
+    slave1MaxAng: 275.0
+    slave1AngInc: 0.5
+    slave1TfFrame: "laser_slave1_frame"
+    slave1Topic: "scan_2"
+    slave2Enabled: false
+    slave2IntensityEnable: false
+    slave2MinAng: 0.0
+    slave2MaxAng: 275.0
+    slave2AngInc: 0.5
+    slave2TfFrame: "laser_slave2_frame"
+    slave2Topic: "scan_3"
+    slave3Enabled: false
+    slave3IntensityEnable: false
+    slave3MinAng: 0.0
+    slave3MaxAng: 275.0
+    slave3AngInc: 0.5
+    slave3TfFrame: "laser_slave3_frame"
+    slave3Topic: "scan_4"
+
